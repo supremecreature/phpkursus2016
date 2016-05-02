@@ -1,6 +1,7 @@
 <?php
-/**
- * The base configuration for WordPress
+/*
+
+se configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the
  * installation. You don't have to use the web site, you can
@@ -46,14 +47,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '3?_xcaWm6@v-}iC(Y;C8RKF7yGrLc^)XMs^+=.zq+X[Np$|ud&]f$!~`M!?f_o77');
-define('SECURE_AUTH_KEY',  '{a`%dcsT_|r3Z[$~7PY3p%[lpW+*={4k$(=).-r5}NT/VZu+AxA9hMFE< *|V=eK');
-define('LOGGED_IN_KEY',    '4i{8L~wxmZS2:`gu80azdIUh5jw}u7I:4Gfn_b[+`#hIFS 2h9_o.+H4ZQ~S;2,L');
-define('NONCE_KEY',        'ro>Sl`]zmErz)[+Z`U#qD[q)xF1r~4B+?)wgQ[8BXw,OED(du>;m*CGVR)3~N/?2');
-define('AUTH_SALT',        'TI[?H&hxd,D]YRGdGdMm`XK.ZDiS>A{@[^{HohWV#[@)iE$&&;w+hYpm:K_!<(&Z');
-define('SECURE_AUTH_SALT', 'pt<&d:e`nF^2qam:Jy@eWTMg8;.[nJ2b]|Uvfh[-pIDt:|RKIF^h1:z}X:/OPJc?');
-define('LOGGED_IN_SALT',   '2ICiO?VJLY}z%AVL?u4D-1R9*ICEut&GAsP`QS:.HMBxidT&)GwNBtLTPW}q.B_L');
-define('NONCE_SALT',       ':K/.5&MV2Km>3]/e[e$CAtyPY){~+@rt]l|Xs/]M9#Nv/e)&RLO8S~BS=4ofo8mP');
+define('AUTH_KEY',         '=wP6ObyX7.l|Db]@^`K|-D2)$=,OVQti|]G(2[=5Td}Yox?RJJbIsz#2`iQdVB/L');
+define('SECURE_AUTH_KEY',  'hsA3ghApV+#!-kg,Q+-DK/dhgB]KDkYo=Mg#-BoydO?=jC-H1B)Xu~F1/M.PWl55');
+define('LOGGED_IN_KEY',    'iRcw-I*m7]b>]-T&?(dD5-j|=rj`p;g_TA=e5o+B54 #jEE*{8H+buA1bS9kQ^eO');
+define('NONCE_KEY',        '(()yuvXQk}<rBYW1Bsd@n$6jbbJtT {MW-j,0;+k^@Wqb&h[g_?[&jm,}esZ6!aP');
+define('AUTH_SALT',        '4^fTh1U2J3H|+NjW!r N3=]T@D}gaAxuHv`C?XO]->A}86X<iw18K.e,gkm2#~H!');
+define('SECURE_AUTH_SALT', 'g!ec^M<BqMxUEyIC3;|;g7gPsTV_g@+-vxCkV#N$.&+W1Oo]=dp1Ci4T/HqjnPm ');
+define('LOGGED_IN_SALT',   '-bS G0q9qtM=e=Qhm>JE-bsHXgI^hGDL70H=)f0N&tI&63DE]@?VeI53;W/8(A]n');
+define('NONCE_SALT',       '$wF6<s5Bi%@]v6V<1+QO:2qx9Z=a@3-bEQ~+/%wj@D-:e,u3k`p!KY@+B/ObDvMz');
 
 /**#@-*/
 
@@ -63,7 +64,7 @@ define('NONCE_SALT',       ':K/.5&MV2Km>3]/e[e$CAtyPY){~+@rt]l|Xs/]M9#Nv/e)&RLO8
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wpphpkursus2016_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -87,3 +88,7 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+
+?>
