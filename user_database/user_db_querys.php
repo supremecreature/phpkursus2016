@@ -30,3 +30,12 @@ INSERT INTO `users` (`id_users`, `username`, `password`, `name`, `email`, `langu
 (1, 'muti', '*22640DBAB9CEE5C7F53E8AF9662B30F0CC441FFB', 'Mutionu', 'muti@urg.ee', 'et', 'tzt', 0, '', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 0, 0, 4, '2012-09-19 09:06:14', 1, 0, ''),
 (2, 'rebane', '*86A52D1F64064103ED834DD513D9F8E4CE5CE772', 'Rebase Rein', '', '', 'Siia sisesta oma kommentaarid', 0, 'y', '2012-09-19 09:09:27', '0000-00-00 00:00:00', 1, 0, 0, '0000-00-00 00:00:00', 0, 0, ''),
 (3, 'admin', '*C142FB215B6E05B7C134B1A653AD4B455157FD79', 'Admin Demola', 'admin@uhuu.ee', 'Eesti', 'Siia sisesta oma kommentaarid', 1, 'y', '2012-09-19 09:13:25', '0000-00-00 00:00:00', 1, 0, 4, '0000-00-00 00:00:00', 0, 0, '');
+
+
+-- 16.05.2016
+
+ALTER TABLE `users` ADD `test` INT(5) NOT NULL ;
+
+INSERT INTO `phpkursus2016`.`users` (`id_users`, `username`, `password`, `name`, `email`, `language`, `comment`, `newsletter`, `status`, `date_insert`, `date_change`, `id_users_insert`, `id_users_change`, `level`, `last_login_date`, `login_count`, `login_failed_count`, `deleted`, `test`) VALUES (NULL, 'test', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '');
+
+
