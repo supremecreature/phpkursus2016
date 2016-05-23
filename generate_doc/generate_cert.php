@@ -67,7 +67,7 @@ function numtostr($num){
 }
 
 
-$file = "cert.rtf";
+$file = "./cert_msword.rtf";
 //$file = "C:/kirjuta/xampp/htdocs/generate_rtf/arve.rtf";
 //$file = "/var/www/html/generate_doc/arve.rtf";
 
