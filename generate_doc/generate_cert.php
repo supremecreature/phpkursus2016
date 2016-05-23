@@ -87,7 +87,6 @@ function fillin($tag, $value, $text)
 #$text = fillin("[KUUPAEV]", date("d.m.Y"), $text);
 
 
-
 header("HTTP/1.1 200 OK");
 header("Content-type: application/rtf");
 
